@@ -1,0 +1,137 @@
+/* Fondo y fuente general de todo el programa*/
+body {
+  font-family: Script MT Bold;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+/* ENCABEZADO (parte de arriba)*/
+header {
+  background-color: #cee5f7;
+  position: relative;
+  padding-top: 80px; /* espacio para los logos */
+  padding-bottom: 10px;
+  
+}
+
+/* LOGOS EN LAS ESQUINAS */
+
+.logo-izquierda {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  height: auto;
+}
+
+.logo-derecha {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: auto;
+}
+
+/* MENÚ DE NAVEGACIÓN DEBAJO DE LOS LOGOS (Bienvenida)*/
+.menu-navegacion {
+  margin-top: 30px; /* espacio entre logos y menú */
+    text-align: center;
+  TEXTO-DECORATION: UNDERLINE;
+  font-family: Arial, Helvetica, sans-serif;
+  FONT-SIZE:100%;
+  FONT-STYLE: ITALIC;
+  FONT-WEIGHT:BOLDER;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Imagen principal con texto */
+.imagen {
+  position: relative;
+  text-align: center;
+}
+
+.fondo {
+  width: 100%;
+  height: auto;
+}
+
+.texto {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Sección de las curiosidades  */
+.curiosidades {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* Pie de página */
+.pie-pagina {
+  background-color: #cee5f7;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+}
+
+.pie-pagina p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.icono-telefono {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.icono-facebook {
+  width: 32px;
+  margin-top: 10px;
+}
+
+/* Mensaje de bienvenida flotante */
+.mensaje-bienvenida {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #cee5f7;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.mensaje-bienvenida.mostrar {
+  opacity: 1;
+}

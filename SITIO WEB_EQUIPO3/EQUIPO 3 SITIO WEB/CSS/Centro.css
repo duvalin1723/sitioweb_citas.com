@@ -1,0 +1,23 @@
+<TITLE> CENTRO DE SALUD </TITLE>
+<BODY BGCOLOR= "BLUE">
+
+table {
+    width:100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+td {
+    border: 1px solid aqua;
+    padding: 10px;
+
+}
+
+
+h3{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+   

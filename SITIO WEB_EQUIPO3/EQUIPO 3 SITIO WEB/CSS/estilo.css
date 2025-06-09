@@ -1,0 +1,32 @@
+body {
+    background-color: #a6cfff;; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+

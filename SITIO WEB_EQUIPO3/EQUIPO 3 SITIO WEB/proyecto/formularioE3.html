@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulario de Consulta</title>
+  <link rel="stylesheet" href="ESTILOS.css" />
+</head>
+<body>
+<header>
+  <div class="encabezado-blanco">
+    <img src="IMG/CECYTEM.JPEG" alt="Logo CECYTEM" class="logo logo-izq" />
+    <img src="IMG/estadoL.JPG" alt="Logo Estado" class="logo logo-der" />
+  </div>
+  <div class="encabezado-azul">
+    <h1>PAGINA PRINCIPAL</h1>
+  </div>
+</header>
+
+  <main>
+    <div class="contenedor-formulario">
+      <div class="fondo-formulario"></div>
+      <div class="formulario-superior">
+        <form id="formConsulta">
+          <label for="apellidoPaterno">Apellido Paterno:</label>
+          <input type="text" id="apellidoPaterno" required>
+
+          <label for="apellidoMaterno">Apellido Materno:</label>
+          <input type="text" id="apellidoMaterno" required>
+
+          <label for="nombres">Nombre(s):</label>
+          <input type="text" id="nombres" required>
+
+          <label for="identificacion">NSS o CURP:</label>
+          <input type="text" id="identificacion" required>
+
+          <label for="edad">Edad:</label>
+          <input type="number" id="edad" required min="0">
+
+          <label for="sexo">Sexo:</label>
+          <select id="sexo" required>
+            <option value="">Seleccione</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Otro">Otro</option>
+          </select>
+
+          <label for="domicilio">Domicilio:</label>
+          <textarea id="domicilio" rows="2" required></textarea>
+
+          <label for="fechaAgendaCita">Fecha :</label>
+          <input type="date" id="fechaNacimiento" required>
+
+          <label for="telefono">Teléfono:</label>
+          <input type="text" id="telefono" maxlength="10" pattern="\d{10}" placeholder="10 dígitos" required>
+
+          <label for="correo">Correo Electrónico:</label>
+          <input type="email" id="correo" placeholder="Email" required>
+
+          <label for="motivo">Motivo de la Consulta:</label>
+          <textarea id="motivo" rows="3" required></textarea>
+
+          <button type="submit">Enviar</button>
+          <p id="mensajeError" class="error"></p>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>INTEGRANTES DE EQUIPO</p>
+    <p>Valeria Flores Blas NL:11</p>
+    <p>Karla Amatrista Bernal Guerrero NL:17</p>
+    <p>Carmelo Mendosa Telles NL: 26</p>
+    <p>Jenny Desiderio Morales NL: 27</p>
+    <p>Maria Remedios Perez  Espiridion NL: 29</p>
+    <p>Dulce Maria Erasto Sanchez NL:34</p>
+    <p>Yasmin Cordero Sanora NL:35</p>
+<a href="https://www.facebook.com/share/19ruScu6wY/" target="_blank">
+      <img src="IMG/facebook.jpeg" alt="Facebook" class="facebook-icon">
+    </a>
+
+  </footer>
+
+  <script src="formularioE3.js"></script>
+<div id="mensajeExito" class="toast-exito">Formulario Enviado con exito.</div>
+</body>
+</html>

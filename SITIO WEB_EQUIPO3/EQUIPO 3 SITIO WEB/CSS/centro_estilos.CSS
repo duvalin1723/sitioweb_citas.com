@@ -1,0 +1,187 @@
+.CUADRO1
+{
+       POSITION: ABSOLUTE;
+       LEFT:1180PX; 
+       TOP:5PX;
+       WIDTH:80PX;
+       HEIGTH:20PX;
+
+}
+
+.CUADRO2
+{
+       POSITION: ABSOLUTE;
+       LEFT:10PX; 
+       TOP:5PX;
+       WIDTH:120PX;
+       HEIGTH:20PX;
+
+}
+.CUADRO3
+{
+       POSITION: ABSOLUTE;
+       LEFT:1000PX; 
+       TOP:790PX;
+       WIDTH:30PX;
+       HEIGTH:20PX;
+
+}
+
+.CUADRO4
+{
+       POSITION: ABSOLUTE;
+       LEFT:600PX; 
+       TOP:790PX;
+       WIDTH:30PX;
+       HEIGTH:20PX;
+
+}
+.CUADRO5
+{
+       POSITION: ABSOLUTE;
+       LEFT:200PX; 
+       TOP:790PX;
+       WIDTH:40PX;
+       HEIGTH:20PX;
+
+}
+
+
+
+.TD2
+{
+background-color:#a6cfff;
+WIDTH:100%;
+height:600px;
+}
+
+
+.t2
+{
+    width:100%;
+    vertical-align: middle;
+}
+
+table
+{
+    width: 100%;
+}
+
+.td1
+{
+    background-image: url(fondo.PNG);
+    height: 620px;   
+    
+}
+
+H3{
+  TEXTO-ALIGN: CENTER;
+  TEXTO-DECORATION: UNDERLINE;
+  VERTICAL-ALIGN:TOP;
+  FONT-FAMILY: Arial Black;
+  FONT-SIZE:300%;
+  FONT-STYLE: ITALIC;
+  COLOR: #0946b4;
+  FONT-WEIGHT:BOLDER;
+}
+
+.TD
+{
+background-color:#cee5f7;
+}
+
+.TD2
+{
+background-color:#a6cfff;;
+WIDTH:100%;
+height:120px;
+}
+
+.PARRAFO1
+{
+  POSITION: ABSOLUTE;
+  LEFT:300PX;
+  TOP:110PX;
+  FONT-FAMILY:Bodoni MT;
+  FONT-SIZE:220%;
+  FONT-STYLE: ITALIC;
+  COLOR: #0946b4;
+  FONT-WEIGHT:BOLDER; 
+ }
+
+
+H6
+{
+  POSITION: ABSOLUTE;
+  LEFT:50PX;
+  TOP:210PX;
+  FONT-FAMILY:Arial;
+  FONT-SIZE:190%;
+  FONT-STYLE: ITALIC;
+  COLOR: WHITE;
+  FONT-WEIGHT:BOLDER; 
+ }
+.PARRAFO2
+{
+  POSITION: ABSOLUTE;
+  LEFT:500PX;
+  TOP:110PX;
+  FONT-FAMILY:Bodoni MT;
+  FONT-SIZE:260%;
+  FONT-STYLE: ITALIC;
+  COLOR: #0946b4;
+  FONT-WEIGHT:BOLDER; 
+ }
+
+.PARRAFO3
+{
+  POSITION: ABSOLUTE;
+  LEFT:100PX;
+  TOP:490PX;
+  FONT-FAMILY:Bodoni MT;
+  FONT-SIZE:240%;
+  FONT-STYLE: ITALIC;
+  COLOR: #0946b4;
+  FONT-WEIGHT:BOLDER;
+  BACKGROUND:  WHITE; 
+ }
+
+.HORARIO
+{
+  POSITION: ABSOLUTE;
+  LEFT:150PX;
+  TOP:580PX;
+  FONT-FAMILY:Bodoni MT;
+  FONT-SIZE:180%;
+  FONT-STYLE: ITALIC;
+  COLOR: #0946b4;
+  FONT-WEIGHT:BOLDER;
+  BACKGROUND:  WHITE; 
+ }
+.DIAS
+{
+  POSITION: ABSOLUTE;
+  LEFT:860PX;
+  TOP:490PX;
+  FONT-FAMILY:Bodoni MT;
+  FONT-SIZE:240%;
+  FONT-STYLE: ITALIC;
+  COLOR: #0946b4;
+  FONT-WEIGHT:BOLDER;
+  BACKGROUND:  WHITE; 
+ }
+.DIA
+{
+  POSITION: ABSOLUTE;
+  LEFT:895PX;
+  TOP:585PX;
+  FONT-FAMILY:Bodoni MT;
+  FONT-SIZE:180%;
+  FONT-STYLE: ITALIC;
+  COLOR: #0946b4;
+  FONT-WEIGHT:BOLDER;
+  BACKGROUND:  WHITE; 
+ }
+
+
+

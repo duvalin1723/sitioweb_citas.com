@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SITIO WEB</title>
+  <link href="CSS/estilosjenny.css" rel="stylesheet" type="text/css">
+  <script>
+    window.onload = function() {
+      const mensaje = document.getElementById("mensajeBienvenida");
+      mensaje.classList.add("mostrar");
+
+      // Ocultamos el msj de javaScrip
+      setTimeout(() => {
+        mensaje.classList.remove("mostrar");
+      }, 4000);
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Mensaje de bienvenida al entrar a la página -->
+  <div class="mensaje-bienvenida" id="mensajeBienvenida">
+    ¡Bienvenid@ a ¿Sabías que? de Santa Cruz Tepexpan ≧◠‿◠≦✌!
+  </div>
+
+  
+    <header>
+      <!-- Logos en esquinas tanto del lado izquierdo, como el derecho -->
+      <img src="IMG/cecy.jpg" alt="Logo CECy" class="logo-izquierda">
+      <img src="IMG/estadoL.jpg" alt="Logo Estado de México" class="logo-derecha">
+    
+      <!-- Menú de navegación debajo, o sea el menú que nos manda a la pagina principal -->
+      <nav class="menu-navegacion">
+        <ul>
+          <li><a href="file:///D:/SITIO_WEB/index.html">PÁGINA PRINCIPAL</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+
+  <main>
+    <div class="imagen">
+      <img class="fondo" src="IMG/CENTROS.png" alt="IMAGEN">
+      <div class="texto">
+        <h2>¿Sabías que en Santa Cruz Tepexpan<br>
+        existen algunos datos muy relevantes?<br>
+    Te contare un poco de esta!!!!!!   ʕ•́ᴥ•̀ʔっ</h2>
+      </div>
+    </div>
+
+    <section class="curiosidades">
+      <h3>Curiosidades de la clinica de Santa Cruz Tepexpan</h3>
+      <p>
+        El Centro de Salud de Santa Cruz Tepexpan está ubicado estratégicamente en el centro del pueblo, detrás de la iglesia principal, lo que facilita el acceso para la comunidad.<br> Atiende a más de 10 mil personas, aunque anteriormente su cobertura era mayor, pero disminuyó por la creación de un nuevo hospital, migración y la pandemia.<br> En los últimos años, su infraestructura ha mejorado gracias al apoyo del gobierno municipal, con el objetivo de brindar un mejor servicio a los habitantes de la comunidad.
+     <br>Antes de que existiera una clinica medica , los antiguos ancestros se curaban con hiervas medicinales tales como la :<br>
+   <br>
+      <br>
+    Manzanilla: Utilizada para aliviar problemas digestivos y como sedante.<br>
+       <br>
+Eucalipto: Conocido por sus propiedades expectorantes y para tratar resfriados.<br>
+   <br>
+Aloe Vera: Usada para tratar quemaduras y problemas de piel.<br>
+   <br>
+Menta: Ayuda en la digestión y alivia dolores de cabeza.<br>
+   <br>
+Jengibre: Conocido por sus propiedades antiinflamatorias y para aliviar náuseas.<br>
+   <br>
+Estas plantas se pueden utilizar en diversas formas, como infusiones, jarabes, cremas o ungüentos.  </br>
+       
+        </p>
+   
+    </section>
+  </main>
+
+  <footer class="pie-pagina">
+    <p><strong><p>Equipo 3:</p>
+      <p>Valeria Flores Blas.</p>
+      <p>Karla Amatista Guerrero Bernal.</p>
+      <p>Carmelo Mendoza Tellez.</p>
+      <p>Jenny Morales Desiderio.</p>
+      <p>Maria Remedios Perez Espiridion.</p>
+      <p>Dulce Maria Sanchez Erasto.</p>
+      <p>Yasmin Sanora Cordero.</p>   </strong></p>
+    <p>
+      <img src="IMG/telefono.JPG" alt="Teléfono" class="icono-telefono">
+      <strong>+52 712 938 2343</strong>
+    </p>
+    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook oficial de Santa Cruz Tepepan">
+      <img src="IMG/facebook.PNG" alt="Facebook" class="icono-facebook">
+    </a>
+  </footer>
+
+</body>
+</html>

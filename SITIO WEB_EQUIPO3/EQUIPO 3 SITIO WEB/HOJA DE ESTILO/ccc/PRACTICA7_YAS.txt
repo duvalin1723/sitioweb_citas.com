@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<HTML> 
+     <HEAD>
+      <TITLE>NIALL HORAN</TITLE>
+       </HEAD>
+        <BODY BGCOLOR="PALEGREEN">
+            <H1 ALIGN="CENTER"><FONT COLOR="AQUA">NIALL HORAN</FONT></H1>
+             <BR>
+              <BR>
+             
+            <H4><I><FONT COLOR="OLIVE">POR: YASMIN SANORA CORDERO</FONT></I></H4>
+             <P>Esta práctica tiene como objetivo aprender el uso de las etiquetas multimedia en HTML5</P>
+               <BR>
+              <TABLE BORDER="0"  ALIGN="CENTER"     WIDTH="100%>
+              <TR>
+              <TD WIDTH="25%" ALIGN="center"><H3 class="titulo"><A HREF="">Biografía</A></H3></TD>
+              <TD WIDTH="25%" ALIGN="center"><H3 class="titulo">Discografía</H3></TD>
+              <TD WIDTH="25%" ALIGN="center"><H3 class="titulo">Galería de Imágenes</H3></TD>
+              <TD WIDTH="25%" ALIGN="center"><H3 class="titulo">Enlaces</H3></TD>
+              </TR>
+              </TABLE>
+               <BR>
+                <BR>
+                  <BR>
+                    <BR>
+            
+                  <TABLE BORDER="0"  ALIGN="CENTER"     WIDTH="100%>
+                     <TR>
+            <TD WIDTH="25%"><H3 ALIGN="CENTER"><FONT COLOR="WHITE"><A HREF="">ARCHIVO AUDIO</A></FONT></H3></TD>
+            <TD WIDTH="50%"><H3 ALIGN="CENTER"><FONT COLOR="WHITE"><A HREF="">VIDEO</A></FONT></H3></TD>
+            <TD WIDTH="50%"><H3 ALIGN="CENTER"><FONT COLOR="WHITE"><A HREF="">ENLACE CON VIDEO</A></FONT></H3></TD>
+            </TR>
+            <TR>
+             <TD WIDTH="25%"><H3 ALIGN="CENTER"><FONT COLOR="WHITE"><AUDIO SRC="audio.mp3" CONTROLS LOOP></AUDIO></FONT></H3></TD>
+       <TD WIDTH="50%"><H3 ALIGN="CENTER"><FONT COLOR="WHITE"><VIDEO SRC="video.mp4" CONTROLS LOOP WIDTH="250"  HEIGTH="200"></VIDEO></FONT></H3></TD>
+       
+       <TD WIDTH="25%"><H3 ALIGN="CENTER"><FONT COLOR="WHITE"><A HREF=https://www.niallhoran.com/#/home target="_black"><IMG SRC="img/niall.jpg" ALT="NIALL HORAN"></IMG></A></FONT></H3></TD>
+        </TR>
+         </TABLE>
+          </BODY>
+         </HTML>
+
+
+           

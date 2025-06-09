@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+IMG
+{
+     WIDTH:60PX;
+     HEIGTH:10PX;
+}
+.LOGO
+{
+    float: right;
+    WIDTH:100PX;
+    HEIGTH:50PX;
+}
+H3{
+  line-height: 15px; /* altura del contenedor */
+  
+  text-align: center;
+  TEXTO-DECORATION: UNDERLINE;
+  FONT-FAMILY: Arial Black;
+  FONT-SIZE:100%;
+  FONT-STYLE: ITALIC;
+  FONT-WEIGHT:BOLDER;
+}
+.fondo
+{
+  width: 100%; /* ancho de la ventana */
+  height: 110%; /* alto de la ventana */
+}
+.IMAGEN
+{
+    position: relative;
+  width: 100%; /* ancho de la ventana */
+  
+}
+
+.IMAGEN img {
+  width: 100%;
+  height: 100%;
+ 
+  display: block;
+}
+.TEXTO
+{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  FONT-SIZE:55px;
+  transform: translate(-50%, -50%);
+  color: #2a55d9;
+  text-align: center;
+}
+footer
+{
+  background-color:#cee5f7;
+  width: 98.5%;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  z-index: 1000;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenido p
+{
+ font-size: 10px;
+}
+NAV
+{
+  float: left;
+  
+}
+NAV UL{
+  list-style: none;
+  overflow: hidden;
+
+}
+NAV UL LI{
+  flex: 1;
+  float: left;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20PX;
+}
+NAV UL LI A{
+  display: block;
+  padding: 10PX;
+  color: black;
+  text-decoration:none;
+}
+NAV UL LI:HOVER{
+  background-color: beige;
+}
+
+.bienvenida {
+  position:absolute;
+  top: 50%;
+  left: 48%;
+  FONT-SIZE:17px;
+  transform: translate(-50%, -50%);
+  color: #2a55d9;
+  text-align: center;
+}
+.org
+´{
+    
+  width: 100%; /* ancho de la ventana */
+  height: 110%; /* alto de la ventana */
+}
+.face
+{
+     WIDTH:20PX;
+     HEIGTH:10PX;
+}
